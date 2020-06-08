@@ -99,7 +99,6 @@ public class DataBaseHandler extends SQLiteOpenHelper {
 
             item.setItemAddDate(formattedDate);
 
-            Log.d("ugandarCA", "getItem: "+ formattedDate);
 
         }
         return item;
